@@ -1,0 +1,148 @@
+
+
+
+bady{
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.mediumvioletred-hihglight{
+    color:mediumvioletred;
+    
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("./images/header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, purple,mediumvioletred);
+    /* background-image: mediumvioletred; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* color: mediumvioletred; */
+    color: white;
+    font-weight: 700;
+}
+/* 2 start */
+.drem-area{
+    background-image: url("./images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* 2 end*/
+
+/* 3 start */
+.experience-area{
+    background-image: url("./images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.experience-area > img{
+    width: 30%;
+    float: left;
+    /* margin: 0; */
+}
+
+
+
+/* 3 end */
+
+
+/* 4 start */
+.footer-area{
+    position: relative;
+    /* width: 400px; */
+    width: 100%;
+    /* height: 200px; */
+    /* border: 3px solid #73AD21; */
+
+}
+
+
+.full-width{
+        
+    box-sizing: border-box;
+    width: 0%;
+    background-size: cover;
+    
+  
+}
+.full-width.half-width-footer > span{
+    margin-top: 30%;
+}
+.half-width >img{
+    width: 100%;
+}
+.half-width-footer{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    /* top: 80px; */
+    top: 0;
+    right: 0;
+    height: 100%;
+    /* border: 3px solid #73AD21; */
+   
+}
+.tolain {
+    /* margin: 30%; */
+}
+.tolain > span{
+    
+
+}
+
+.link-button-footer{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, purple,mediumvioletred);
+    /* background-image: mediumvioletred; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* color: mediumvioletred; */
+    color: white;
+    font-weight: 700;
+}
+a.link-button-footer {
+    margin: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.atag {
+    width: 100%;
+    margin-top: 30%;
+}
+
+.last{
+    text-align: center;
+}
+
+/* 4 end */
